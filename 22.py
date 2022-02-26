@@ -23,4 +23,3 @@ for palavra in texto:
     somatorio += Vpal * cont
 
 print(somatorio)
-#aasd
