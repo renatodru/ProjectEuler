@@ -25,4 +25,4 @@ for i in range(len(piramide)-2,-1,-1):
         else:piramide[i][j] += piramide[i+1][j+1]
 
         
-print(piramide)
+print(piramide[0][0])

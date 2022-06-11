@@ -24,8 +24,7 @@ def verprimo(i):
 #x = 600851475143
 #x = 13195
 #x = 60
+for x in range(100):
+    print(primo(x))
 
-inicio=datetime.now()
-verprimo(600851475143)
-print(600851475143,"tempo",datetime.now()-inicio)
         

@@ -10,7 +10,7 @@ def mult(numero,lista):
 
 
 
-numero = 1000
+numero = 100000
 lista = [3,5]
 
 mult(numero,lista)

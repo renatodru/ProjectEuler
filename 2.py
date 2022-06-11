@@ -1,11 +1,8 @@
 
 
 
-s = [1,2]
-s += [(s := [s[1], s[0] + s[1]]) and s[1] for k in range(4*10**6)]
-print(len(s))
-soma = 0
-for i in s:
-    if i%2 == 0: soma +=i 
-
-print(s)
+n = 1000
+fibs = [0,1]
+while fibs[-1]<n:
+    fibs.append(fibs[-2]+fibs[-1])
+print(sum([x for x in fibs[:-1] if x%2==0]))
